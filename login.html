@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login - ExpenseTracker</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a class="brand" href="index.html">ExpenseTracker</a>
+    </div>
+  </header>
+
+  <main class="auth-page">
+    <div class="container auth-card">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label>Email
+          <input type="email" id="loginEmail" required>
+        </label>
+        <label>Password
+          <input type="password" id="loginPassword" required>
+        </label>
+        <button class="btn" type="submit">Login</button>
+        <p class="muted">Don't have an account? <a href="signup.html">Sign up</a></p>
+      </form>
+      <p class="muted">Demo credentials: <strong>demo@user.com / demo123</strong></p>
+    </div>
+  </main>
+
+<script src="js/auth.js"></script>
+</body>
+</html>
